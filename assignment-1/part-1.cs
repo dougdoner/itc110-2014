@@ -32,7 +32,6 @@ namespace Assignment1ClassWork
             //numbers in brackets are placeholders for variables, followed by the variables in the order of the numbers
             //displays output after
             Console.WriteLine("{0}, {1}--{2}", firstName, lastName, email);
-            Console.WriteLine(firstName + " " + lastName + "--" + email);
 
             //waits for a key stroke, then ends program
             Console.ReadKey();
