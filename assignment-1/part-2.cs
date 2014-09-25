@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace assignment1Part2
+namespace Assignment1Part2
 {
     class Program
         /* assignment-1
