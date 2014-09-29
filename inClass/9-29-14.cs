@@ -17,6 +17,8 @@ namespace NumberExample
             //can declare multiple variables of the same data type on one line
             int number, numberb, numberc;
             double number2;
+            //assigns 3.14 to the constant double PI
+            const double PI = 3.14;
 
             //asks user to input an integer, then assigns variable number to the parsed Console.ReadLine
             Console.WriteLine("Enter an integer");
