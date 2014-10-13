@@ -19,7 +19,7 @@ namespace itc110assignment_4
 
             int counter = 0;
             string keepGoing = "yes";
-            while (keepGoing == "Yes" || keepGoing == "yes")
+            while (keepGoing.Equals("Yes") || keepGoing.Equals("yes"))
             {
                 counter++;
                 Console.WriteLine("You have looped {0} times. Would you like the loop to keep going?", counter);
