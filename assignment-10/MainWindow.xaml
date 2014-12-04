@@ -1,0 +1,31 @@
+<Window x:Class="itc110_douglasdoner_assignment_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Douglas' Tip Program" Height="350" Width="525">
+    <Grid>
+        <Grid x:Name="calculateTips" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517">
+            <TextBox x:Name="textMealAmount" HorizontalAlignment="Left" Height="20" Margin="161,5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="79"/>
+            <Label Content="Enter a meal amount" HorizontalAlignment="Left" Height="40" Margin="20,0,0,0" VerticalAlignment="Top" Width="124">
+            </Label>
+            <Label Content="Select a tip percentage" HorizontalAlignment="Left" Height="40" Margin="20,45,0,0" VerticalAlignment="Top" Width="135"/>
+            <RadioButton x:Name="RadioPercent5" IsChecked="true" Content="5" GroupName="TipPercent" HorizontalAlignment="Left" Margin="160,47,0,0" VerticalAlignment="Top"/>
+            <RadioButton x:Name="RadioPercent10" Content="10" GroupName="TipPercent" HorizontalAlignment="Left" Margin="160,67,0,0" VerticalAlignment="Top"/>
+            <RadioButton x:Name="RadioPercent15" Content="15" GroupName="TipPercent" HorizontalAlignment="Left" Margin="160,87,0,0" VerticalAlignment="Top"/>
+            <RadioButton x:Name="RadioPercent20" Content="20" GroupName="TipPercent" HorizontalAlignment="Left" Margin="160,106,0,0" VerticalAlignment="Top"/>
+            <RadioButton x:Name="RadioPercentOther" Content="Other" GroupName="TipPercent" HorizontalAlignment="Left" Margin="160,126,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="textCustomPercent" HorizontalAlignment="Left" Height="20" Margin="241,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+            <Button x:Name="ButtonCalc" Content="Calculate" HorizontalAlignment="Left" Height="20" Margin="21,140,0,0" VerticalAlignment="Top" Width="100" Click="ButtonCalc_Click_1"/>
+            <Label Content="Your Tip is:" HorizontalAlignment="Left" Height="25" Margin="20,180,0,0" VerticalAlignment="Top" Width="101"/>
+            <Label Content="Your tax is:" HorizontalAlignment="Left" Height="25" Margin="21,210,0,0" VerticalAlignment="Top" Width="101"/>
+            <Label Content="Your total is:" HorizontalAlignment="Left" Height="25" Margin="20,240,0,0" VerticalAlignment="Top" Width="101"/>
+            <Label x:Name="labelTipTotal" Content="" HorizontalAlignment="Left" Height="25" Margin="126,180,0,0" VerticalAlignment="Top" Width="101"/>
+            <Label x:Name="labelTaxTotal" Content="" HorizontalAlignment="Left" Height="25" Margin="126,210,0,0" VerticalAlignment="Top" Width="101"/>
+            <Label x:Name="labelMealTotal" Content="" HorizontalAlignment="Left" Height="25" Margin="126,240,0,0" VerticalAlignment="Top" Width="101"/>
+            <Button x:Name="ButtonWrite" Content="Save" HorizontalAlignment="Left" Margin="21,280,0,0" VerticalAlignment="Top" Width="101" Click="ButtonWrite_Click"/>
+            <Label x:Name="labelErrorMessage" Content="" HorizontalAlignment="Left" Height="30" Margin="260,2,0,0" VerticalAlignment="Top" Width="200"/>
+            <Button x:Name="buttonRead" Content="Load" HorizontalAlignment="Left" Height="20" Margin="160,280,0,0" VerticalAlignment="Top" Width="80" Click="ButtonRead_Click"/>
+            <Label x:Name="labelReadFile" Content="" HorizontalAlignment="Left" Height="105" Margin="320,160,0,0" VerticalAlignment="Top" Width="80"/>
+        </Grid>
+
+    </Grid>
+</Window>
