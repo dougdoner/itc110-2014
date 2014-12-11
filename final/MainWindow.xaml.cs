@@ -23,7 +23,14 @@ namespace itc110_final_douglasdoner
     /// There are four problem types: Addition, subtraction, multiplication and division.
     /// When the user clicks on a problem type button, a randomly generated equation shows up in the problem box.
     /// 
-    /// The user inputs an 
+    /// The user inputs an integer into the submission text box, and the solution integer is ran against the user input to check whether or not its a correct answer.
+    /// 
+    /// If it is a correct answer, the message box display "good answer!".
+    /// If the user's input answer is incorrect, then the message box displays "Try again".
+    /// 
+    /// Author: Douglas Doner
+    /// 
+    /// Date: 12/10/2014
     /// </summary>
     public partial class MainWindow : Window
     {
